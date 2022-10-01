@@ -1,0 +1,115 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(126, 185, 165),
+            pink,
+            gray);
+}
+
+header {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(64, 65, 15);
+    padding: 10px;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+#flex-items {
+    color: bisque;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+fieldset {
+    width: 500px;
+    height: 40px;
+    border: 2px solid;
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+.items {
+    padding: 30px;
+
+}
+
+#btn1 {
+    background-color: rgb(46, 203, 40);
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;
+    top: 350px;
+    left: 900px;
+}
+
+#btn2 {
+
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;
+    top: 350px;
+    left: 950px;
+}
+
+span {
+    font-size: 30px;
+    /* margin-top:300px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#Addnewstudent {
+    height: 40px;
+    width: 230px;
+    background-color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;
+    left: 950px;
+    top: 50px;
+
+}
+
+input {
+    width: 400px;
+    height: 20px;
+    background-color: transparent;
+    border: solid transparent;
+    text-align: center;
+}
+
+input[type=text]:focus {
+    background-color: rgb(128, 233, 233);
+}
+
+#tablepart {
+    margin-top: 100px;
+}
+
+th,
+td {
+    border-bottom: 1px solid rgb(6, 146, 201);
+    text-align: center;
+}
